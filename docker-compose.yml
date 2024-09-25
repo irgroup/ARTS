@@ -1,0 +1,9 @@
+version: "3"
+services:
+
+  arts:
+    image: arts
+    volumes: 
+        - ./workspace:/workspace
+        
+    tty: true
